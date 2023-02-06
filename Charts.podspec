@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "Charts"
+  s.name = "UICharts"
   s.version = "3.6.0"
   s.summary = "Charts is a powerful & easy to use chart library for iOS, tvOS and OSX (and Android)"
   s.homepage = "https://github.com/danielgindi/Charts"
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.tvos.deployment_target = "9.0"
   s.osx.deployment_target = "10.11"
-  s.source = { :git => "https://github.com/danielgindi/Charts.git", :tag => "v#{s.version}" }
+  s.source = { :git => "https://github.com/T2SoftDev/Charts.git", :tag => "v#{s.version}" }
   s.default_subspec = "Core"
   s.swift_version = '5.3'
   s.cocoapods_version = '>= 1.5.0'
